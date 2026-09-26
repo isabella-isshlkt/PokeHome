@@ -1,10 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 import Inicio from "./pages/Inicio";
 import Adote from "./pages/Adote";
 import ComoAdotar from "./pages/ComoAdotar";
+import DetalhesPokemons from "./pages/DetalhesPokemons";
+import FormularioAdocao from "./pages/FormularioAdocao";
 import Produtos from "./pages/Produtos";
 import SobreNos from "./pages/SobreNos";
 import Perfil from "./pages/Perfil";
@@ -18,9 +20,25 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={<Inicio />} />
+        <Route
+          path="/"
+          element={<Inicio />}
+        />
 
-        <Route path="/adote" element={<Adote />} />
+        <Route
+          path="/adote"
+          element={<Adote />}
+        />
+
+        <Route
+          path="/pokemon/:id"
+          element={<DetalhesPokemons />}
+        />
+
+        <Route
+          path="/adotar/:id"
+          element={<FormularioAdocao />}
+        />
 
         <Route
           path="/como-adotar"
