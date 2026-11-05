@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
 
       <Link to="/" className="logo">
-        PokéHome 🏠
+        PokéHome
       </Link>
 
       <div className="nav-links">
@@ -21,6 +21,8 @@ function Navbar() {
         <Link to="/sobre">Sobre nós</Link>
 
         <Link to="/perfil">Perfil</Link>
+
+        <Link to="/carrinho">Carrinho</Link>
 
       </div>
 

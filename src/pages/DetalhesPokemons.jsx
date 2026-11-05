@@ -13,7 +13,7 @@ function DetalhesPokemons() {
     return (
       <main className="section">
 
-        <h1>Pokémon não encontrado 😢</h1>
+        <h1>Pokémon não encontrado :/</h1>
 
         <Link to="/adote">
           Voltar para os Pokémon
@@ -50,14 +50,14 @@ function DetalhesPokemons() {
           </p>
 
           <p className="available">
-            🟢 Disponível para adoção
+            Disponível para adoção
           </p>
 
           <Link
             to={`/adotar/${pokemon.id}`}
             className="button-link"
           >
-            Quero adotar! 💚
+            Quero adotar!
           </Link>
 
           <Link

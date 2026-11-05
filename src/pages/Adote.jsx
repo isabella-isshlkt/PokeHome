@@ -36,6 +36,15 @@ export const pokemons = [
     emoji: "💧",
     descricao:
       "Squirtle é um Pokémon tranquilo e companheiro que gosta de passar tempo ao lado de seu treinador."
+  },
+    {
+    id: 5,
+    nome: "Gengar",
+    tipo: "fantasma",
+    personalidade: "Quieto e misterioso",
+    emoji: "💧",
+    descricao:
+      "Ele se esconde nas sombras. Dizem que nos cômodos onde Gengar se encontra, a temperatura cai quase 10 graus Fahrenheit."
   }
 ];
 

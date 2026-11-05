@@ -109,22 +109,22 @@ main {
 /* BOTÕES */
 
 button {
+  background-color: #fecd56; 
+  color: #1a1a1a;
   border: none;
-
-  background-color: #2878d8;
-  color: white;
-
-  padding: 12px 20px;
-
   border-radius: 8px;
-
-  font-size: 16px;
-
+  padding: 10px 24px;
+  font-weight: bold;
   cursor: pointer;
+  
+  /* Transição suave para todas as mudanças (cor e tamanho) */
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-button:hover {
-  opacity: 0.85;
+/* Efeito de passar o mouse APENAS no botão */
+.btn:hover {
+  background-color: #e6b83b; /* Escurece levemente o amarelo */
+  transform: scale(1.08);    /* Dá o efeito de zoom (aumenta em 8%) */
 }
 
 

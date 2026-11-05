@@ -3,7 +3,7 @@ function Inicio() {
     <main>
 
       <section className="hero">
-        <h1>Bem-vindo ao PokéHome! 🏠</h1>
+        <h1>Bem-vindo ao PokéHome!</h1>
 
         <p>
           Encontre um novo companheiro Pokémon para chamar de seu.
@@ -19,8 +19,10 @@ function Inicio() {
 
         <p>
           O PokéHome é um centro de adoção dedicado a conectar
-          Pokémon que procuram um lar com novos treinadores.
+          Pokémons que procuram um lar com novos treinadores.
         </p>
+
+       
 
       </section>
 
@@ -36,27 +38,39 @@ function Inicio() {
             <p>
               Encontre Pokémon que estão esperando por um novo lar.
             </p>
+
+             <button>Ver mais</button>
+
           </div>
 
           <div className="card">
-            <h3>📋 Como adotar?</h3>
+            <h3>Como adotar?</h3>
             <p>
               Descubra como funciona o processo de adoção.
             </p>
+
+            <button>Ver mais</button>
+
           </div>
 
           <div className="card">
-            <h3>🛍️ Produtos</h3>
+            <h3>Produtos</h3>
             <p>
               Encontre itens para cuidar do seu Pokémon.
             </p>
+
+            <button>Ver mais</button>
+
           </div>
 
           <div className="card">
-            <h3>❤️ Sobre nós</h3>
+            <h3>Sobre nós</h3>
             <p>
-              Conheça a história e a missão do PokéHome.
+              Conheça a história e o objetivo de PokéHome.
             </p>
+            
+            <button>Ver mais</button>
+
           </div>
 
         </div>
